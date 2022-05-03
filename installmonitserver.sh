@@ -8,7 +8,7 @@
 
 
 # Renaming Files and moving files
-
+chmod 700 monitrcprime
 mv /etc/monitrc /etc/monitrc.old
 cp -p monitrcprime /etc/monitrc
 monit reload
